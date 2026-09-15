@@ -48,3 +48,8 @@ Hospital-Management-System/
 ├── README.md
 └── src/
     └── HospitalManagementSystem.java
+
+## Project Documentation
+
+- [Project Presentation](docs/Hospital-Management-System-Presentation.pptx)
+- [Project Report](docs/Hospital-Management-System-Project-Report.pdf)
