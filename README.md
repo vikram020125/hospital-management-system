@@ -56,59 +56,9 @@ Each record is assigned a unique identifier using Java's `UUID` functionality. A
 
 ## System Workflow
 
-The application follows a simple menu-driven workflow:
+The application follows a simple menu-driven workflow for managing patients, appointments, and billing.
 
-```text
-                         ┌───────────────┐
-                         │     START     │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                ┌─────────────────────────────┐
-                │ Hospital Management System  │
-                └──────────────┬──────────────┘
-                               │
-                               ▼
-                     ┌──────────────────┐
-                     │   Display Menu   │
-                     └────────┬─────────┘
-                              │
-              ┌───────────────┼───────────────┐
-              │               │               │
-              ▼               ▼               ▼
-       ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-       │   Patient   │ │ Appointment │ │   Billing   │
-       │ Management  │ │ Management  │ │ Management  │
-       └──────┬──────┘ └──────┬──────┘ └──────┬──────┘
-              │               │               │
-              ▼               ▼               ▼
-       ┌─────────────┐ ┌─────────────┐ ┌─────────────┐
-       │ Add / View  │ │ Schedule /  │ │ Generate /  │
-       │ / Search    │ │ View        │ │ View Bills  │
-       │ Patients    │ │ Appointments│ │             │
-       └──────┬──────┘ └──────┬──────┘ └──────┬──────┘
-              │               │               │
-              └───────────────┼───────────────┘
-                              │
-                              ▼
-                     ┌──────────────────┐
-                     │ Return to Menu   │
-                     └────────┬─────────┘
-                              │
-                              ▼
-                         ┌───────────┐
-                         │   Exit?   │
-                         └─────┬─────┘
-                               │
-                    ┌──────────┴──────────┐
-                    │                     │
-                   No                    Yes
-                    │                     │
-                    └──────────┐          ▼
-                               │     ┌──────────┐
-                               └────►│   END    │
-                                     └──────────┘
-```
+![Hospital Management System Workflow](docs/workflow-diagram.png)
 
 ---
 
