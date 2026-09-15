@@ -2,6 +2,10 @@
 
 A console-based Hospital Management System developed in Java using Object-Oriented Programming (OOP) concepts.
 
+## Application Preview
+
+![Hospital Management System Console](docs/screenshots/hms-console.png)
+
 ## Project Overview
 
 The Hospital Management System is designed to manage basic hospital operations through a simple command-line interface.
@@ -40,6 +44,7 @@ The system currently supports patient management, appointment scheduling, and bi
 - UUID
 - Java Date and Time API
 - Command-Line Interface (CLI)
+
 
 ## Project Documentation
 
