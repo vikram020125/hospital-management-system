@@ -41,6 +41,11 @@ The system currently supports patient management, appointment scheduling, and bi
 - Java Date and Time API
 - Command-Line Interface (CLI)
 
+## Project Documentation
+
+- [Project Presentation](docs/Hospital-Management-System-Presentation.pptx)
+- [Project Report](docs/Hospital-Management-System-Project-Report.pdf)
+
 ## Project Structure
 
 ```text
@@ -49,7 +54,4 @@ Hospital-Management-System/
 └── src/
     └── HospitalManagementSystem.java
 
-## Project Documentation
 
-- [Project Presentation](docs/Hospital-Management-System-Presentation.pptx)
-- [Project Report](docs/Hospital-Management-System-Project-Report.pdf)
